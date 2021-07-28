@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.headerBGG {
+    background: url(https://img5.goodfon.com/wallpaper/nbig/4/e0/turkey-dessert-turkish-cuisine-baklava.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.fontMonteCarlo {
+    font-family: 'MonteCarlo', cursive;
+}
+
+.temacolor {
+    color: #EEB76B;
+
+}
+
+.nav-bg {
+    background-color: rgba(255, 255, 255, .5);
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+
+}
+
+.nav-bg:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.nav-bg p {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.aboutbg {
+    background: url(https://img.freepik.com/free-photo/marble-patterned-texture-background-marbles-thailand-abstract-natural-marble-black-white-gray-design_1253-1078.jpg?size=626&ext=jpg&ga=GA1.2.2140631430.1627344000) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.footerbg {
+
+    background: url(../src/footerbackground.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.blackopacity {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.menupara {
+    font-size: 2rem;
+}
