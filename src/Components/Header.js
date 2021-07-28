@@ -94,7 +94,26 @@ class MobileNav extends Component {
 						/>
 					</div>
 				</div>
-				{this.state.open && <div>merhaba</div>}
+				{this.state.open && (
+					<div>
+						{menu.map((item, index) => {
+							if (item === "img") {
+								return null;
+							}
+							return (
+								<p
+									onClick={() => this.setState({ buttonStat: index })}
+									className=" px-12 text-4xl py-12 cursor-pointer"
+									style={
+										this.state.buttonStat === index ? { color: "#EEB76B" } : {}
+									}
+								>
+									{item}
+								</p>
+							);
+						})}
+					</div>
+				)}
 			</div>
 		);
 	}
